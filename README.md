@@ -1,37 +1,25 @@
 # Minecraft Modding
 
 ## Setup
-+ Download **forge source/development kit 1.8 mdk** from
+1) Download **forge source/development kit 1.8 mdk** from
 http://files.minecraftforge.net
 
   ```
   unzip forge-1.8-11.14.4.1577-mdk.zip forge-1.8
   ```
 
-+ Set up a forge workspace for eclipse
+2) Set up a forge workspace for eclipse
 
   ```
   cd forge-1.8
   ./gradlew setupDecompWorkspace eclipse
   ```
 
-  - Issue: *OBJModel.java:617: error: cannot find symbol*
-    > Solution: https://github.com/MinecraftForge/MinecraftForge/issues/2183#issuecomment-156540131
+3) Launch eclipse and open the project in **forge-1.8/eclipse** directory
 
-      - download [vecmath-1.5.2.jar](https://github.com/cltran2/minecraft-modding/blob/master/vecmath-1.5.2.jar?raw=true) (originally from http://www.java2s.com/Code/Jar/v/Downloadvecmathjar.htm)
-      - place it in **/Library/Java/Extensions/** so that it takes precedence over the OS X version provided in /System/Library/Java/Extensions/
+4) Run the Client
 
-      ```
-      sudo cp vecmath-1.5.2.jar /Library/Java/Extensions/vecmath.jar
-      ```
-
-+ Launch eclipse and open the project in **forge-1.8/eclipse** directory
-
-+ Run the Client
-  - Issue: *Variable references empty selection: ${project_loc}*
-    > Solution: in Package Explorer, select **MDKExample > src/main/java**
-
-+ Verify that Minecraft is running.
+5) Verify that Minecraft is up and running.
 
 ## Creating the first Mod
 
@@ -109,3 +97,19 @@ public class Main {
 
 ## Mod example codes from the "Minecraft Modding with Forge" book:
   https://github.com/AdityaGupta1/minecraft-modding-book/tree/master/src/main/java/org/devoxx4kids/forge/mods
+
+## Issues and Solutions
+
+- When running **./gradlew setupDecompWorkspace eclipse**:
+  - Issue: *OBJModel.java:617: error: cannot find symbol*
+  > Solution:
+    - Download [vecmath-1.5.2.jar](https://github.com/cltran2/minecraft-modding/blob/master/vecmath-1.5.2.jar?raw=true) (originally from http://www.java2s.com/Code/Jar/v/Downloadvecmathjar.htm)
+    - Place it in **/Library/Java/Extensions/** so that it takes precedence over the OS X version provided in /System/Library/Java/Extensions/
+    ```
+    sudo cp vecmath-1.5.2.jar /Library/Java/Extensions/vecmath.jar
+    ```
+    - For more details, see https://github.com/MinecraftForge/MinecraftForge/issues/2183#issuecomment-156540131
+    
++ When run the Client in Eclipse:
+  - Issue: *Variable references empty selection: ${project_loc}*
+  > Solution: in Package Explorer, select **MDKExample > src/main/java**
