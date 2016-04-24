@@ -16,10 +16,10 @@ http://files.minecraftforge.net
   ```
 
   - Issue: *OBJModel.java:617: error: cannot find symbol*
-> Solution: https://github.com/MinecraftForge/MinecraftForge/issues/2183#issuecomment-156540131
+    > Solution: https://github.com/MinecraftForge/MinecraftForge/issues/2183#issuecomment-156540131
 
-    - download [vecmath-1.5.2.jar](https://github.com/cltran2/minecraft-modding/blob/master/vecmath-1.5.2.jar?raw=true) (originally from http://www.java2s.com/Code/Jar/v/Downloadvecmathjar.htm)
-    - place it in **/Library/Java/Extensions/** so that it takes precedence over the OS X version provided in /System/Library/Java/Extensions/
+      - download [vecmath-1.5.2.jar](https://github.com/cltran2/minecraft-modding/blob/master/vecmath-1.5.2.jar?raw=true) (originally from http://www.java2s.com/Code/Jar/v/Downloadvecmathjar.htm)
+      - place it in **/Library/Java/Extensions/** so that it takes precedence over the OS X version provided in /System/Library/Java/Extensions/
 
       ```
       sudo cp vecmath-1.5.2.jar /Library/Java/Extensions/vecmath.jar
@@ -29,7 +29,7 @@ http://files.minecraftforge.net
 
 + Run the Client
   - Issue: *Variable references empty selection: ${project_loc}*
-> Solution: in Package Explorer, select **MDKExample > src/main/java**
+    > Solution: in Package Explorer, select **MDKExample > src/main/java**
 
 + Verify that Minecraft is running.
 
