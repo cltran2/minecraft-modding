@@ -6,11 +6,11 @@ http://files.minecraftforge.net
 
 ```
 unzip forge-1.8-11.14.4.1577-mdk.zip forge-1.8
-cd forge-1.8
 ```
 
 + Set up a forge workspace for eclipse
 ```
+cd forge-1.8
 ./gradlew setupDecompWorkspace eclipse
 ```
 
