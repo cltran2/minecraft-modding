@@ -1,8 +1,8 @@
 # Minecraft Modding
 
 ## Setup
-1) Download **forge source/development kit 1.8 mdk** from
-http://files.minecraftforge.net
+1) Download [forge source/development kit 1.8 mdk](https://github.com/cltran2/minecraft-modding/blob/master/forge-1.8-11.14.4.1577-mdk.zip?raw=true) (originally from
+http://files.minecraftforge.net)
 
   ```
   unzip forge-1.8-11.14.4.1577-mdk.zip -d forge-1.8
