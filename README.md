@@ -5,7 +5,7 @@
 http://files.minecraftforge.net
 
   ```
-  unzip forge-1.8-11.14.4.1577-mdk.zip forge-1.8
+  unzip forge-1.8-11.14.4.1577-mdk.zip -d forge-1.8
   ```
 
 2) Set up a forge workspace for eclipse
@@ -110,7 +110,7 @@ public class Main {
     ```
     sudo cp vecmath-1.5.2.jar /Library/Java/Extensions/vecmath.jar
     ```
-    
+
     - For more details, see https://github.com/MinecraftForge/MinecraftForge/issues/2183#issuecomment-156540131
 
 + When run the Client in Eclipse:
