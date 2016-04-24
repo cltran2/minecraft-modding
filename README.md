@@ -102,6 +102,7 @@ public class Main {
 
 - When running **./gradlew setupDecompWorkspace eclipse**:
   - Issue: *OBJModel.java:617: error: cannot find symbol*
+
   > Solution:
     - Download [vecmath-1.5.2.jar](https://github.com/cltran2/minecraft-modding/blob/master/vecmath-1.5.2.jar?raw=true) (originally from http://www.java2s.com/Code/Jar/v/Downloadvecmathjar.htm)
     - Place it in **/Library/Java/Extensions/** so that it takes precedence over the OS X version provided in /System/Library/Java/Extensions/
@@ -109,7 +110,8 @@ public class Main {
     sudo cp vecmath-1.5.2.jar /Library/Java/Extensions/vecmath.jar
     ```
     - For more details, see https://github.com/MinecraftForge/MinecraftForge/issues/2183#issuecomment-156540131
-    
+
 + When run the Client in Eclipse:
   - Issue: *Variable references empty selection: ${project_loc}*
+
   > Solution: in Package Explorer, select **MDKExample > src/main/java**
