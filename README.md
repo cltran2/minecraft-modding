@@ -1,7 +1,7 @@
 # Minecraft Modding
 
 ## Setup
-+ download forge source/development kit 1.8 mdk from
++ download **forge source/development kit 1.8 mdk** from
 http://files.minecraftforge.net
 
 ```
