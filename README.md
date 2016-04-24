@@ -29,5 +29,5 @@ cd forge-1.8
 - Issue: open eclipse, launch client: *Variable references empty selection: ${project_loc}*
 > Solution: in Package Explorer, select **MDKExample > src/main/java**
 
-## Mod example codes from the **Minecraft Modding with Forge** book:
+## Mod example codes from the "Minecraft Modding with Forge" book:
 https://github.com/AdityaGupta1/minecraft-modding-book/tree/master/src/main/java/org/devoxx4kids/forge/mods
