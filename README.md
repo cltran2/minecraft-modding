@@ -34,7 +34,7 @@ https://github.com/AdityaGupta1/minecraft-modding-book/tree/master/src/main/java
 
 ## Creating the first Mod
 
-1. In Eclipse, right-click src/main/java folder, and create a new package, e.g., **learning.forge.mods**
+1. In Eclipse, right-click **src/main/java** folder, and create a new package, e.g., **learning.forge.mods**
 
 2. Under **learning.forge.mods** package, create a new class in **Main.java**
 
