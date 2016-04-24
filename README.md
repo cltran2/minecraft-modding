@@ -34,9 +34,9 @@ https://github.com/AdityaGupta1/minecraft-modding-book/tree/master/src/main/java
 
 ## Creating the first Mod
 
-1. In Eclipse, right-click **src/main/java** folder, and create a new package, e.g., **learning.forge.mods**
+1) In Eclipse, right-click **src/main/java** folder, and create a new package, e.g., **learning.forge.mods**
 
-2. Under **learning.forge.mods** package, create a new class in **Main.java**
+2) Under **learning.forge.mods** package, create a new class in **Main.java**
 
 ```java
 package learning.forge.mods;
@@ -57,7 +57,7 @@ public class Main {
 }
 ```
 
-3. Adding the Event Handler class in **BlockBreakMessage.java**
+3) Adding the Event Handler class in **BlockBreakMessage.java**
 
 ```java
 package learning.forge.mods;
@@ -77,7 +77,7 @@ public class BlockBreakMessage {
 }
 ```
 
-4. Registering the Event Handler on the Event Bus in **Main.java**
+4) Registering the Event Handler on the Event Bus in **Main.java**
 
 ```java
 package learning.forge.mods;
@@ -100,7 +100,7 @@ public class Main {
 }
 ```
 
-5. Running Minecraft and Verifying the Mod
+5) Running Minecraft and Verifying the Mod
   - In Eclipse, launch the client.
   - In Minecraft, create a **New World** in **Creative** mode.
   - In the Minecraft world, try to break a block.
